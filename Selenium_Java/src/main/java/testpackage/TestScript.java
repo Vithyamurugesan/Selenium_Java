@@ -8,7 +8,7 @@ public class TestScript {
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		 driver.get("https://www.google.com");
+		driver.get("https://www.google.com");
 		Thread.sleep(5000);
 		driver.navigate().to("https://www.smartcliff.in");
 		Thread.sleep(5000);
