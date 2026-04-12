@@ -54,7 +54,8 @@ public class DemoBlazeLogin {
 	     System.out.println("Logout button is displayed");
 	 }
 		
-
+		driver.quit();
 	}
+
 
 }

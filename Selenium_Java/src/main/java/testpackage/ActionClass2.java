@@ -17,5 +17,6 @@ public class ActionClass2 {
 		WebElement doubleclick=driver.findElement(By.xpath("//button[@ondblclick='dblclickAlert()']"));
 		action.doubleClick(doubleclick).perform();
 		action.click().perform();
+		driver.quit();
 	}
 }

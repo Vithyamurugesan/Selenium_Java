@@ -12,7 +12,7 @@ public class Demo {
 		WebElement search=driver.findElement(By.name("q"));
 		search.sendKeys("Selenium",Keys.ENTER);
 		System.out.println("Page title is : "+driver.getTitle());
-		driver.close();
+		driver.quit();
 		
 
 	}

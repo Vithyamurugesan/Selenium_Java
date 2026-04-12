@@ -17,5 +17,7 @@ public class ActionClass3 {
 		Actions action=new Actions(driver);
 		action.dragAndDrop(source,target).perform();
 		action.click().perform();
+		driver.quit();
+		
 	}
 }

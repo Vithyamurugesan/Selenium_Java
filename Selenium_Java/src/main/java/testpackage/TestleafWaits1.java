@@ -25,5 +25,6 @@ public class TestleafWaits1 {
                 By.xpath("//span[text()='I am here']")));
 
         System.out.println("Visibility wait completed");
+    	driver.quit();
     }
 }

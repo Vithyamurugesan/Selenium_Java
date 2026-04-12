@@ -26,6 +26,7 @@ public class KeyboardActions {
 		Thread.sleep(3000);
 		System.out.println("Child window is"+windowhandles);
 		driver.switchTo().window(parentWindowhandle);
+		driver.quit();
 		
 	}
 

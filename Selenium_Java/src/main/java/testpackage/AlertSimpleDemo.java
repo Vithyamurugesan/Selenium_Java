@@ -22,6 +22,7 @@ public class AlertSimpleDemo {
 		Alert sa=driver.switchTo().alert();
 		sa.accept();
 		System.out.println("Simple Alert Accepted");
+		driver.quit();
 		
 	
 		

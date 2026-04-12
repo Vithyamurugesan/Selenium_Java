@@ -14,7 +14,7 @@ public class NoWaitInmplemented {
 		driver.findElement(By.className("dropdown-content")).click();
 		Thread.sleep(5000);
 		driver.findElement(By.linkText("Facebook")).click();
-		
+		driver.quit();
 		
 
 	}

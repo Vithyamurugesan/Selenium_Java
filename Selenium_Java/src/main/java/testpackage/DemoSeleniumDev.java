@@ -13,7 +13,7 @@ public class DemoSeleniumDev {
 		driver.findElement(By.cssSelector("input#adder")).click();
 		WebElement element=driver.findElement(By.cssSelector("div#box0"));
 		System.out.println(element.getAttribute("class"));
-		driver.close();
+		driver.quit();
 	}
 
 }

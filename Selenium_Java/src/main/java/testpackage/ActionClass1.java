@@ -18,6 +18,7 @@ public class ActionClass1 {
 		WebElement searchfield=driver.findElement(By.xpath("//input[@name='q']"));
 		act.contextClick(searchfield).perform();
 		act.click().perform();
+		driver.quit();
 		
 
 	}

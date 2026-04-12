@@ -24,6 +24,7 @@ public class TableColumSize {
 		
 		System.out.println(columncount);
 		System.out.println(rowcount);
+		driver.quit();
 		
 
 	}

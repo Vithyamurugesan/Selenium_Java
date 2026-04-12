@@ -33,6 +33,7 @@ public class SelectlistActionClass {
 		        }
 
 		        System.out.println("Selected using Actions Class!");
+		    	driver.quit();
 	}
 }
 		

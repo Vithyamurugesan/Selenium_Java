@@ -23,6 +23,8 @@ public class AlertPromptDemo {
 		Alert sa=driver.switchTo().alert();
 		sa.sendKeys("John");
 		sa.accept();
+		driver.quit();
+		
 		
 
 	}

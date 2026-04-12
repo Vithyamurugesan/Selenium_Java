@@ -33,6 +33,7 @@ public class SelectDemo{
 		dropdown.selectByVisibleText("Puppeteer");
 		dropdown.selectByValue("");
 		dropdown.selectByContainsVisibleText("");
+		driver.quit();
 		
 		
 		

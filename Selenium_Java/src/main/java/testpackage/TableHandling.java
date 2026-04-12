@@ -18,6 +18,7 @@ public class TableHandling {
 		for(WebElement heading:headings) {
 			System.out.println(heading.getText());
 		}
+		driver.quit();
 		
 	}
 

@@ -39,5 +39,6 @@ public class TablePrint {
 				}
 				System.out.println();
 			}
+			driver.quit();
 		}
 }

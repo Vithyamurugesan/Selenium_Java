@@ -30,7 +30,7 @@ public class DemoSeleniumDev2 {
 
 		
 		//close the driver resource
-		driver.close();
+		driver.quit();
 		
 
 	}

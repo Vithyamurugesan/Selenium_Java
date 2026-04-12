@@ -24,5 +24,6 @@ public class TableFirstRow {
 				for(WebElement heading:headings) {
 					System.out.println(heading.getText());
 				}
+				driver.quit();
 	}
 }

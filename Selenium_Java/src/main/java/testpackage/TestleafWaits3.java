@@ -25,5 +25,6 @@ public class TestleafWaits3{
                 By.xpath("//span[text()='I am about to hide']")));
 
         System.out.println("Invisibility wait completed");
+    	driver.quit();
     }
 }

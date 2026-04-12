@@ -20,6 +20,8 @@ public class ActionClass {
 		act.moveToElement(option2).click().perform();
 		
 		act.click().perform();
+		driver.quit();
+		
 		
 		
 

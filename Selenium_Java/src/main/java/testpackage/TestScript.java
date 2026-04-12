@@ -18,7 +18,7 @@ public class TestScript {
 		Thread.sleep(5000);
 		driver.navigate().refresh();
 		Thread.sleep(5000);
-		driver.close();
+		driver.quit();
 	}
 
 }

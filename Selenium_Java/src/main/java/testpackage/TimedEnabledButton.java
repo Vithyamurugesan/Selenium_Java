@@ -26,7 +26,7 @@ public class TimedEnabledButton {
 
         driver.findElement(By.cssSelector("input#alert2")).click();
         
-        
+    	driver.quit();
         
         
       

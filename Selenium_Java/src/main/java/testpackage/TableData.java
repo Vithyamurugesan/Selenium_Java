@@ -15,6 +15,7 @@ public class TableData {
 		for(WebElement heading:headings) {
 			System.out.println(heading.getText());
 		}
+		driver.quit();
 	}
 }
 

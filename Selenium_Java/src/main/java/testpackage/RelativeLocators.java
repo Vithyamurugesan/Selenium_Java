@@ -14,6 +14,7 @@ public class RelativeLocators {
 		driver.get("https://www.hyrtutorials.com/p/add-padding-to-containers.html");
 		WebElement passwordField_above=driver.findElement(By.id("//*[@id=\"post-body-299858861183690484\"]/div/form/div[1]/div[2]/input"));
 	    WebElement emailField_above=driver.findElement(with(By.tagName("input")).above(passwordField_above));
+		driver.quit();
 	    
 	}
 
