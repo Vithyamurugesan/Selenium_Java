@@ -34,6 +34,6 @@ public class JavaScriptExecutor {
         // CLICK BUTTON
         WebElement registerBtn = driver.findElement(By.id("registerbtn"));
         js.executeScript("arguments[0].click();", registerBtn);
-    	driver.quit();
+        driver.close();
     }
 }
