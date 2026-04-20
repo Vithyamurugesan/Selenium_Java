@@ -2,7 +2,7 @@ package testpackage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+//Windows instead of using getwindowhandle and iterator
 public class Windowsdemo {
 
 	public static void main(String[] args) {
@@ -12,6 +12,7 @@ public class Windowsdemo {
 		driver.get("https://demoqa.com/");
 		driver.switchTo().newWindow(WindowType.WINDOW);
 		driver.navigate().to("https://demoqa.com/browser-windows");
+		
 		
 	}
 
